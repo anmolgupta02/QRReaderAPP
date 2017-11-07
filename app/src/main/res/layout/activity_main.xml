@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev_anmol.qrreader.MainActivity">
+
+    <Button
+        android:id="@+id/scanbutton"
+        android:text="Click to Scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="181dp" />
+
+    <TextView
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/scanbutton"
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+       />
+
+</RelativeLayout>
